@@ -1,14 +1,14 @@
 {
     "name": "my-recipe-app",
     "version": "1.0.0",
-    "description": "Een recepten-app gebouwd met Vite en vanilla JS",
     "scripts": {
       "dev": "vite",
       "build": "vite build",
       "preview": "vite preview"
     },
-    "devDependencies": {
-      "vite": "^5.0.0"
-    }
+    "dependencies": {
+      "vite": "^6.3.4"
+    },
+    "devDependencies": {}
   }
   
