@@ -11,9 +11,9 @@ Deze applicatie bevat de functionaliteiten:
 || Gebruikte API's met links 
 -
  The meal API (https://www.themealdb.com/api.php)
-   -->  Zoek recepten op naam: https://www.themealdb.com/api/json/v1/1/search.php?s=
-   -->  Lijst van gebieden (landen): https://www.themealdb.com/api/json/v1/1/list.php?a=list
-   -->  Lijst van categorieën: https://www.themealdb.com/api/json/v1/1/list.php?c=list
+- Zoek recepten op naam: https://www.themealdb.com/api/json/v1/1/search.php?s=
+- Lijst van gebieden (landen): https://www.themealdb.com/api/json/v1/1/list.php?a=list
+- Lijst van categorieën: https://www.themealdb.com/api/json/v1/1/list.php?c=list
 
 ||| Implementatie van elke technisch vereiste (waar in de code?/lijnnummer)
 -
