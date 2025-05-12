@@ -32,17 +32,19 @@ header {
 .filters {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 
 }
 
 #search::placeholder {
-  color: #1E1E1E; 
+  color: rgba(21, 38, 58, 1);
   font-family: 'Inter', sans-serif; 
   
+  
 }
+
 
 
 
@@ -52,9 +54,11 @@ input, select {
   border: none;
   border-radius: 8px;
   font-family: 'Inter', sans-serif; 
-  color: #1E1E1E; 
+  color: rgba(21, 38, 58, 1);
   
 }
+
+
 
 
 
@@ -64,11 +68,17 @@ input, select {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
+  background-image: url(../assets/f881c1f0b9c3b57c67d2ccf80fea9248.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 #favorites-section {
   margin-top: 3rem;
 }
+
 
 #favorites-section h2 {
   text-align: center;
