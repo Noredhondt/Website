@@ -122,4 +122,6 @@ De website wordt geopend in je browser
   - https://chatgpt.com/share/68258b48-e7c8-8002-92d9-136115578dd2
 
 
-
+- Overige vragen
+  - https://chatgpt.com/share/68258c35-a034-8002-9604-c618953c47ff
+  - https://chatgpt.com/share/68258c8b-db40-8002-ae04-89c4e04590cb
