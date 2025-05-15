@@ -115,5 +115,11 @@ De website wordt geopend in je browser
 
 - Figma schets: https://www.figma.com/design/Gn6RgfFcajztVEWF9cm6cN/Website-receptenzoeker?node-id=0-1&m=dev
 
+- Css en html
+  - https://chatgpt.com/share/68258afc-b770-8002-be43-a6089f2ae6d8
+
+- Github
+  - https://chatgpt.com/share/68258b48-e7c8-8002-92d9-136115578dd2
+
 
 
