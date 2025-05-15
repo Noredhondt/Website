@@ -37,7 +37,30 @@ Vereisten
 - 
 - Git
 - moderne browser
+- VS code
 - internetverbinding
+
+Stap 1
+-
+
+Ga naar de locatie waar het project staat (GitHub, Drive, etc.)
+Klik op "Download ZIP"
+Pak het ZIP-bestand uit op een gewenste locatie op je computer
+
+Stap 2
+- 
+Start Visual Studio Code
+Klik op "Bestand" > "Map openen..."
+Navigeer naar de map van je project en open deze
+
+Stap 3
+-
+Installeer de extensie Live Server (als je die nog niet hebt)
+Open het HTML-bestand. De naam is :index.html
+Klik het bestand en klik op je rechtermuisknop
+Klik op de optie 'Open with liveserver'
+De website wordt geopend in je browser
+
 
 Kopier dit: 
 - 
