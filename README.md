@@ -18,18 +18,48 @@ Deze applicatie bevat de functionaliteiten:
 ||| Implementatie van elke technisch vereiste (waar in de code?/lijnnummer)
 -
 - API ophalen (alle maaltijden): fetchAllMeals()` - regel 1 (data.js)
+halen we via internet een lijst met maaltijden op. Dit gebeurt met moderne technieken zoals fetch() en async/await.
+
+  
 - Landen ophalen: fetchAreas()` - regel 7 (data.js)
+Met deze functie halen we een lijst met landen op waar de maaltijden vandaan komen.
+
 - Categorieën ophalen: fetchCategories()` - regel 13 (data.js)
+Met deze functie halen we een lijst met maaltijdcategorieën op, zoals “Vlees” of “Vegetarisch”.
   
 - Filterfunctionaliteit:  `filterMeals()` - regel 1  (utils.js)
+Met deze functie filteren we de maaltijden op basis van de zoekterm, het land en de categorie.
+
 - Sorteerfunctionaliteit: `sortMeals()` - regel 7 (utils.js)
+Met deze functie worden de maaltijden alfabetisch gesorteerd, zowel oplopend als aflopend. Dit wordt gedaan met de array .sort() methode, gecombineerd met de ternary operator.
+
 - Favorieten opslaan: `toggleFavorite()` - regel 13 (utils.js)
-  
+Met deze functie worden de favoriete maaltijden lokaal opgeslagen in de browser, zodat ze bewaard blijven als je de pagina ververst. Hiervoor wordt er localStorage gebruikt. Dit is een eenvoudige manier om data in de browser op te slaan.
+
 - DOM manipulatie voor kaarten: `renderMeals()` - regel 3 (ui.js)
+Met deze functie wordt er voor elke maaltijd een kaartje aangemaakt in de pagina. Dit wordt gedaan door nieuwe HTML-elementen aan te maken met document.createElement(), de inhoud te vullen met template literals en die kaartjes aan de pagina toe te voegen.
+
 - dropdown menu invullen: 'populateDropdown()' - regel 23 (ui.js)
+Met deze functie worden de filterselecties automatisch ingevuld voor landen en categorieën met de opgehaalde data.
+
 - Favorieten tonen: `renderFavorites()` - regel 36 (ui.js)
+Met deze functie worden alle favoriete maaltijden getoond in een apart deel van de pagina.
 
 - Event listeners en init: vanaf regel 7 (main.js)
+In het main bestand van javascript worden er allerlei acties aan de pagina-elementen gekoppeld.  Bijvoorbeeld, zodra je iets typt in de zoekbalk of een filter verandert, wordt automatisch de lijst aangepast. Ook kunnen favorieten met een klik aan- of uitgezet worden. Dit gebeurt met callbacks, stukjes code die uitgevoerd worden als een actie plaatsvindt.
+
+- Constanten
+In de hele code gebruiken we waar mogelijk const om aan te geven dat een variabele niet verandert.
+
+- Iteratie over arrays:
+Er wordt gebruik gemaakt van veel array-methodes zoals .forEach(), .map(), .filter(), en .sort() om lijsten te doorlopen en te verwerken. Dit zie je bijvoorbeeld in utils.js en ui.js.
+
+- Styling & layout:
+De pagina is opgebouwd met eenvoudige, semantische HTML. Voor de layout van de maaltijdkaartjes gebruiken we CSS Grid (te vinden in style.css onder .grid). Ook zijn er gebruiksvriendelijke elementen, zoals duidelijk zichtbare favorietenknoppen met icoontjes en hover-effecten voor betere interactie
+
+- Tooling & structuur:
+Dit project is opgezet met Vite, een moderne tool die de ontwikkeling makkelijker en sneller maakt. De code is netjes georganiseerd: de JavaScript-bestanden staan in de src map, CSS in styles, en de HTML apart.
+
 
 |||| Installatiehandleiding
 - 
@@ -42,8 +72,7 @@ Vereisten
 
 Stap 1
 -
-
-Ga naar de locatie waar het project staat (GitHub, Drive, etc.)
+Ga naar de locatie waar het project staat (GitHub - noredhondt/website)
 Klik op "Download ZIP"
 Pak het ZIP-bestand uit op een gewenste locatie op je computer
 
@@ -62,10 +91,7 @@ Klik op de optie 'Open with liveserver'
 De website wordt geopend in je browser
 
 
-Kopier dit: 
-- 
-git clone https://github.com/Noredhondt/Website.git
-cd Website
+
 
 ||||| Screenshots applicatie
 - 
@@ -82,6 +108,10 @@ cd Website
   - https://appmaster.io/nl/blog/apis-voor-beginners-hoe-een-api-te-gebruiken-een-complete-gids
   - https://www.youtube.com/watch?v=tBhPTk5lksc
   - https://chatgpt.com/share/6824172b-98b4-8002-beae-6f38b52419c0
+  - https://chatgpt.com/share/68258a75-9368-8002-9006-24db3ccb67ce
+
+- Handleiding maken
+  - https://chatgpt.com/share/682585a8-ba10-8002-9523-2b53955cae8d
 
 - Figma schets: https://www.figma.com/design/Gn6RgfFcajztVEWF9cm6cN/Website-receptenzoeker?node-id=0-1&m=dev
 
